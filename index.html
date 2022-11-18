@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style/style.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <section class="left-card">
+      <img class="logo" src="./assets/logo.svg" alt="Fylo logo">
+      <div class="left-card-icons">
+        <img src="./assets/icon-document.svg" alt="Document icon">
+        <img src="./assets/icon-folder.svg" alt="Folder icon">
+        <img src="./assets/icon-upload.svg" alt="Upload icon">
+      </div>
+    </section>
+
+    <section class="right-card">
+      <h2>You&#39ve used <span>815 GB</span> of your storage</h2>
+      <div class="slider-container">
+        <div class="slider-background">
+          <input type="range" min="1" max="815" value="815" id="myRange" class="slider">
+        </div>
+      </div>
+      <p class="slider-text">0GB <span>1000GB</span></p>
+      <div class="speech-bubble">
+        <h1>185<span>GB LEFT</span></h1>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
